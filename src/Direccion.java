@@ -9,10 +9,10 @@ public class Direccion {
 
     public static void main(String[] args) {
         final String NOMBRE = "Beatriz Viejo Domínguez";
-        final String CALLE = "Avenida Portugal";
-        final int NUM = 22;
-        final int CP = 28939;
-        final String LOCALIDAD = "Arroyomolinos";
+        final String CALLE = "Avenida Italia";
+        final int NUM = 45;
+        final int CP = 28932;
+        final String LOCALIDAD = "Móstoles";
         final String PROVINCIA = "Madrid";
         final String PAIS = "España";
         System.out.println(NOMBRE);
