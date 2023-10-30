@@ -7,16 +7,16 @@ public class Conversionhora {
 
     public static void main (String[] args){
 
-        final int ses = 60;
+        final int LX = 60;
 
         Scanner reader = new Scanner(System.in);
         System.out.println("Introduzca el número de segundos que quiere convertir");
         int segundosleidos = reader.nextInt();
 
-        int segundos = segundosleidos % ses;
-        int minutos = segundosleidos / ses;
-        int horas = minutos / ses;
-        minutos = minutos % ses;
+        int segundos = segundosleidos % LX;
+        int minutos = segundosleidos / LX;
+        int horas = minutos / LX;
+        minutos = minutos % LX;
 
         System.out.println("Nº segundos: " + segundosleidos);
         System.out.println("Horas: " + horas);
